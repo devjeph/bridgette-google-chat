@@ -3,8 +3,6 @@
  * @description Contains all functions for interacting withi the User Database Google Sheet.
  */
 
-const { use } = require("react");
-
 // --- Global Database Constants
 const SCRIPT_PROPERTIES = PropertiesService.getScriptProperties();
 const USER_DATABASE_SHEET_ID = SCRIPT_PROPERTIES.getProperty('USER_DATABASE_SHEET_ID');
